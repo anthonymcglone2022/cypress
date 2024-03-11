@@ -6,6 +6,7 @@
 ## Prerequisites before running the tests
 
 - Install [Cypress](https://docs.cypress.io/) making sure it installs `nodejs`, `npm` and `npx`
+- Ensure the Allure packages in `package.json` are also installed (check with `npm ls` in the project folder)
 - Run the [flask](https://github.com/anthonymcglone2022/flask) project
 - Run the [postcodes](https://github.com/anthonymcglone2022/postcodes) project
 
