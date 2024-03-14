@@ -18,7 +18,6 @@ describe('API Automation Suite', () => {
             expect(response.body.code).to.eq(request_body.code)
             expect(response.body.inuse).to.eq(request_body.inuse)
             expect(response.body.district).to.eq(request_body.district)
-
         })
     })
   })
