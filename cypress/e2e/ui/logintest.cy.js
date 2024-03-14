@@ -10,16 +10,16 @@ describe('UI Automation Suite', () => {
    */
 
   it('Login Test', () => {
-    Index.loadHomePage();
-    Index.isHeaderPresent();
-    Index.clickLogin();
+      Index.loadHomePage();
+      Index.isHeaderPresent();
+      Index.clickLogin();
 
-    Login.isHeaderPresent("Login");
-    Login.enterLogin("admin");
-    Login.enterPassword("password");
-    Login.clickLogin();
+      Login.isHeaderPresent("Login");
+      Login.enterLogin("admin");
+      Login.enterPassword("password");
+      Login.clickLogin();
 
-    Dashboard.isHeaderPresent("admin");
+      Dashboard.isHeaderPresent("admin");
   })
 
 })
